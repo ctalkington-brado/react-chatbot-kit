@@ -17,6 +17,7 @@ export interface ICustomComponents {
   header?: (props?: any) => ReactElement;
   botAvatar?: (props?: any) => ReactElement;
   botChatMessage?: (props?: any) => ReactElement;
+  chatInput?: (props?: any) => ReactElement;
   userAvatar?: (props?: any) => ReactElement;
   userChatMessage?: (props?: any) => ReactElement;
 }

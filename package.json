@@ -1,6 +1,6 @@
 {
   "name": "react-chatbot-kit",
-  "version": "2.1.1",
+  "version": "2.1.1-1",
   "homepage": "https://fredrikoseberg.github.io/react-chatbot-kit-docs/",
   "description": "Fully customizable chatbot kit for react.",
   "main": "build/index.js",
@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "build-watch": "webpack --watch",
-    "prepare": "yarn run build"
+    "prepare": "npm run build"
   },
   "author": {
     "name": "Fredrik Strand Oseberg",
